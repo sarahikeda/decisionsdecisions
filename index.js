@@ -76,12 +76,10 @@ function replaceActivity(chosenActivity) {
 }
 
 $(document).ready(function() {
-  $('.energy-dropdown').change(function() {
-    var energyLevel = this.value;
+  $('.container').change(function() {
+    var energyLevel = $('.energy-dropdown').val();
     var emotion = $('.emotion-dropdown').val();
-    if (!emotion) {
-      alert('Please pick an emotion.')
-    } else {
+    if (emotion && energyLevel) {
       var allActivities = getAllActivities(emotion,energyLevel)
       var chosenActivity = pickActivity(allActivities);
       replaceActivity(chosenActivity);
