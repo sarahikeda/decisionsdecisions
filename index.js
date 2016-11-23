@@ -72,7 +72,7 @@ function pickActivity(allActivities) {
 }
 
 function replaceActivity(chosenActivity) {
-  $('#activity').replaceWith(chosenActivity);
+  $('#activity').text(chosenActivity);
 }
 
 $(document).ready(function() {
