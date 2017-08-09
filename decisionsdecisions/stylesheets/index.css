@@ -1,0 +1,24 @@
+body {
+  background-color: rgba(0, 240, 196, 0.68)
+}
+
+.statement {
+  padding: 1em 2em 0em 2em;
+  font-size: 4em;
+  font-family: "Amatic SC";
+  color: white;
+}
+
+.emotion-dropdown {
+    font-family: "Amatic SC";
+    font-size: .5em;
+}
+
+.energy-dropdown {
+    font-family: "Amatic SC";
+    font-size: .5em;
+}
+
+.activity {
+  font-weight: bold;
+}
