@@ -1,0 +1,54 @@
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  padding: 0;
+}
+
+a:link {
+  color: black ;
+}
+
+a:visited {
+  color: #be35ff;
+}
+
+.name a {
+  font-size: 3em;
+  margin-top: 15px;
+  margin-left: 10px;
+  float: left;
+  color: black;
+  text-decoration: none;
+}
+
+.navright {
+  font-size: 1em;
+  float: right;
+  list-style-type: none;
+  margin: 20px 20px 0 0;
+}
+
+.navright li {
+  display: inline;
+  padding-left: 10px;
+}
+
+.description, .press {
+  margin: 30px 260px 40px 200px;
+}
+
+.portfolio-stream img{
+  margin: 20px 0 0 350px;
+  width: 35%;
+}
+
+#lamp-vid video {
+  margin: 40px 0 10px 60px;
+  width: 80%;
+}
+
+#creative50 {
+  margin: 20px 40px 50px 0;
+  width: 20%;
+  float: right;
+}
